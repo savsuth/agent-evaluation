@@ -1,0 +1,38 @@
+{
+  "name": "agent-evaluation",
+  "version": "1.2.0",
+  "description": "CLI and agent skills for managing GitHub PR review comments. List, filter, reply, and watch for bot findings.",
+  "license": "MIT",
+  "author": "Aasav Suthar",
+  "keywords": [
+    "github",
+    "pull-request",
+    "code-review",
+    "cli",
+    "ai-agent",
+    "agent-skill",
+    "pr-comments",
+    "review-bot"
+  ],
+  "bin": {
+    "agent-evaluation": "bin/agent-evaluation.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "skills/",
+    ".claude-plugin/"
+  ],
+  "scripts": {
+    "install-skills": "node scripts/install-skills.js",
+    "prepare": "node scripts/install-skills.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0"
+  }
+}
