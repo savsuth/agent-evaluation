@@ -1,7 +1,5 @@
 # agent-evaluation
 
-Maintained by Aasav Suthar.
-
 Manage GitHub PR review comments from the terminal and from AI coding agents.
 
 PR review bots (Copilot, Cursor Bugbot, CodeRabbit, etc.) leave inline comments on your pull requests. agent-evaluation gives you a CLI to list, filter, reply to, and watch those comments, plus agent skills that automate the entire triage-fix-reply loop.
