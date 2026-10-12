@@ -261,8 +261,3 @@ Development tests now require Node.js 22.12+, 24, or 26+ as supported by Vitest 
 
 **Simplified architecture.** Skills now invoke `npx agent-reviews` at runtime instead of bundling their own scripts, reducing the package from ~4000 lines of duplicated code to a single CLI entry point. Skills no longer run redundant startup commands (version check, branch detection, PR lookup), relying on the CLI's own error handling instead.
 
-## License
-
-MIT. Copyright (c) 2026 Aasav Suthar for modifications to this project.
-
-Includes code from [pbakaus/agent-reviews](https://github.com/pbakaus/agent-reviews), copyright (c) 2025 Paul Bakaus, under the MIT license. See [LICENSE](LICENSE) for the full terms and retained copyright notices.
