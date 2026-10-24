@@ -1,0 +1,14 @@
+{
+  "name": "agent-evaluation",
+  "description": "Manage GitHub PR review comments. Automatically triage, fix, and respond to review findings.",
+  "version": "1.2.0",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "pull-request",
+    "code-review",
+    "claude-code",
+    "ai-agent",
+    "review-bot"
+  ]
+}
